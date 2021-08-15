@@ -1,0 +1,22 @@
+Compte bloque. Au revoir 
+Au revoir
+Voulez-vous retourner au menu principal ? 
+Le solde de votre compte est de
+Entrez votre code de securite : 
+Entrez le montant a transferer: 
+Solde insuffisant 
+Entrez le numero qui va recevoir le transfert.   
+Transfert effectue avec succes. 
+Entrez votre ancien code : 
+Entrez votre nouveau code: 
+Option inconnu 
+1--> Changer votre code secret  
+Confirmez votre nouveau code: 
+Votre code a ete modifie avec succes.  
+les deux codes ne correspondent pas. Votre code n'a pas ete modifie. Au revoir 
+1 Solde de mon compte
+2 Transfert d'argent
+3 Paiement de facture
+4 Options 
+Tapez le numero du service choisi
+Transfert impossible car vous n'avez pas saisi le bon numero 

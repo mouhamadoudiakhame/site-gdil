@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Programme</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" type="text/css" href="css/common.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/admission.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/78b513c38f.js"></script>
+</head>
+
+<body>
+
+
+	<nav>
+		<div class="logo">
+			<a href="index.html"><img src="img/final.png" alt="logo ugb"
+					title="logo Universite Gaston Berger de Saint-Louis"></a>
+		</div>
+		<div class="navbar">
+			<div class="icon-bar" onclick="Show()">
+				<i></i>
+				<i></i>
+				<i></i>
+			</div>
+			<ul id="nav-lists">
+				<li class="close"><span onclick="Hide()">x</span></li>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="admission.html">Admission</a></li>
+				<li><a href="debouche.html">Débouchés</a></li>
+				<li><a href="programme.html">Programme</a></li>
+				<li><a href="inscription.html">Soumettre son dossier</a></li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<main style="padding: 4em; padding-top: 2em;">
+		<section>
+			<h1>CONTENU DU PROGRAMME</h1>
+			<ul>
+				<li>Langages Automates et Compilation</li>
+				<li>Intelligence Artificielle</li>
+				<li>Modélisation Objet avec UML</li>
+				<li>Base de Données Avancées</li>
+				<li>Réseaux IP</li>
+				<li>Outils mathématiques pour Informatique</li>
+				<li>echnologies XML et WebServices</li>
+				<li>Algorithmique Avancée, Humanités</li>
+				<li>Complexité et Théorie de l'information</li>
+				<li>Programmation Web Avancée</li>
+				<li>Bases de Données Objet Relationnel -SQL3</li>
+				<li>Architecture et sécurité des BD</li>
+				<li>Gestion de données distribuées (dont BigData)</li>
+				<li>Datawharehousing</li>
+				<li>Ingénierie logicielle</li>
+				<li>Applications Mobiles</li>
+				<li>Extraction de connaissances(dont DataMining)</li>
+				<li>Recherche d'information et Web sémantique</li>
+			</ul>
+		</section>
+
+		<section>
+			<h1>Programme detaille complet</h1>
+			<p>
+				Vous pouvez telecharger ici le <a href="maquette.pdf" download><i class="fa fa-file-pdf-o"></i>
+					programme complet.</a>
+			</p>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<section class="footer-left">
+			<h3>Universite Gaston Berger
+			</h3>
+
+			<p class="footer-links">
+				<a href="accueil.html" class="link-1">Accueil</a>
+				<a href="admission.html">Admission</a>
+				<a href="debouche.html">Débouchés</a>
+				<a href="programme.html">Programme</a>
+			</p>
+
+			<p class="footer-company-name">Universite Gaston Berger © 2020</p>
+
+			<div class="footer-icons">
+				<a href="https://fr-fr.facebook.com"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/twitter"><i class="fa fa-twitter"></i></a>
+				<a href="https://fr.linkedin.com"><i class="fa fa-linkedin"></i></a>
+			</div>
+		</section>
+
+		<section class="footer-center">
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>B.P. 234 </span> Saint-Louis, Senegal</p>
+			</div>
+
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+221 33 961 23 40</p>
+			</div>
+
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:sectioninfo-sat@ugb.edu.sn">sectioninfo-sat@ugb.edu.sn</a></p>
+			</div>
+		</section>
+
+		<section class="footer-right">
+			<p>Nous Contactez</p>
+
+			<form action="contact.php" method="POST">
+				<input type="email" name="email" placeholder="Email" required>
+				<textarea name="message" placeholder="Message" required></textarea>
+				<button>Envoyer</button>
+			</form>
+		</section>
+
+	</footer>
+
+
+	<script src="js/menu.js">
+
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+//par seynabou
+--un enseignant est dans une section(relation enseignant et section)
+relation ternaire entre professeur, etudiant et EC aboutissant à une classe intermediaire cours
+
+--gestion des notes(etudiant, bulletin, notes)
+
+
+
+
+
+
+
+
+
+
+
+
+//par diakhame
+--il ya une relation entre seance , créneau et salle de cours mais il nya pas de relation avec le cours ou l'ec concernant la séance
+
+--non gestion des notes de devoirs et examens
+--il n ya pas de classe Admin 
+--la gestion des emplois du temps n'est pas explicite dans la modélisation
+

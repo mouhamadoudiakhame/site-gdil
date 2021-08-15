@@ -1,0 +1,22 @@
+Blocked account. Bye
+Bye
+Do you want to return to the main menu?
+Your account balance is
+Enter your security code:
+Enter the amount to transfer:
+Insufficient balance
+Enter the number that will receive the transfer.
+Transfer completed successfully.
+Enter your old code:
+Enter your new code:
+Unknown option
+1 -> Change your secret code
+Confirm your new code:
+Your code has been changed successfully.
+the two codes do not match. Your code has not been modified. Bye
+1 Balance of my account
+2 Money transfer
+3 Bill payment
+4 options
+Enter the number of the chosen service
+Transfer not possible because you did not enter the correct number
